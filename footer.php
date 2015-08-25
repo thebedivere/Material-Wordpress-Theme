@@ -1,9 +1,11 @@
 <!-- footer -->
 
 <footer class="page-footer footer" role="contentinfo">
+<!--
     <div class="container">
-        <?php footer_nav(); ?>
+        <?php //footer_nav(); ?>
     </div>
+-->
     <div class="footer-copyright">
         <div class="container">
             &copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
