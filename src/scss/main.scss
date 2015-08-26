@@ -37,6 +37,18 @@ h1,h2,h3,h4,h5 {
     width: 100%;
     height: 100%;
 }
+
+.primary {
+	background: $primary-color;
+}
+.secondary {
+	background: $secondary-color;
+}
+
+.divider {
+	margin: 1em auto;
+	width: 100%;
+}
 //
 //input[type=text]:focus {
 //	color: lighten($input-border-color, 20%)!important;  
