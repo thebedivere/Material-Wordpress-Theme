@@ -1,5 +1,5 @@
 /*** Colors ***/
-$primary-color: color("blue", "darken-4") !default;
+$primary-color: #004785;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
@@ -124,7 +124,7 @@ $toast-color: #323232 !default;
 $toast-text-color: #fff !default;
 
 /*** Typography ***/
-$off-black: rgba(0, 0, 0, 0.87) !default;
+$off-black: rgba(0, 0, 0, 0.7) !default;
 // Header Styles
 $h1-fontsize: 4.2rem !default;
 $h2-fontsize: 3.56rem !default;

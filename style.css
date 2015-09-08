@@ -2661,7 +2661,7 @@ ul li {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #0D47A1;
+  border-left: 5px solid #004785;
 }
 
 i {
@@ -2709,7 +2709,7 @@ video.responsive-video {
   color: #fff;
 }
 .pagination li.active {
-  background-color: #0D47A1;
+  background-color: #004785;
 }
 .pagination li.disabled a {
   cursor: default;
@@ -2855,7 +2855,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #0D47A1;
+  background-color: #004785;
 }
 footer.page-footer .footer-copyright {
   overflow: hidden;
@@ -6892,7 +6892,7 @@ span.badge.new:after {
 
 nav {
   color: #fff;
-  background-color: #0D47A1;
+  background-color: #004785;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -7066,7 +7066,7 @@ html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.7);
 }
 @media only screen and (min-width: 0) {
   html {
@@ -7489,7 +7489,7 @@ small {
   width: 15%;
 }
 .tabs .tab a {
-  color: #0D47A1;
+  color: #004785;
   display: block;
   width: 100%;
   height: 100%;
@@ -7500,17 +7500,17 @@ small {
   transition: color 0.28s ease;
 }
 .tabs .tab a:hover {
-  color: #2674ee;
+  color: #007deb;
 }
 .tabs .tab.disabled a {
-  color: #2674ee;
+  color: #007deb;
   cursor: default;
 }
 .tabs .indicator {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #1366e8;
+  background-color: #0070d2;
   will-change: left, right;
 }
 
@@ -7560,6 +7560,7 @@ small {
   display: inline-block;
   height: 36px;
   line-height: 36px;
+  margin-bottom: 15px;
   outline: 0;
   padding: 0 2rem;
   text-transform: uppercase;
@@ -7702,7 +7703,7 @@ button.btn-floating {
 }
 .dropdown-content li {
   clear: both;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.7);
   cursor: pointer;
   line-height: 1.5rem;
   width: 100%;
@@ -9202,7 +9203,7 @@ select {
 }
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
-  background-color: #0D47A1;
+  background-color: #004785;
 }
 .side-nav .collapsible-body li.active a,
 .side-nav.fixed .collapsible-body li.active a {
@@ -10555,6 +10556,19 @@ h1, h2, h3, h4, h5 {
   padding: 2em;
   width: 100%;
   height: 100%;
+}
+
+.primary {
+  background: #004785;
+}
+
+.secondary {
+  background: #26a69a;
+}
+
+.divider {
+  margin: 1em auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
